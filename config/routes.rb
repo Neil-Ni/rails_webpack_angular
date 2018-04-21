@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
+  root 'hello_angular#index'
+  get 'hello_angular/index'
+  get 'hello_angular/name'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
